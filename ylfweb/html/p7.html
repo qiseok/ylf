@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>YLF</title>
+    <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+    <style type="text/css">
+      a:visited{color:black;}
+      a{color:black;}
+    </style>
+    <style media="screen">
+      /*초기화*/
+      *{margin:0; padding:0;}
+      a{text-decoration:none;}
+
+      img{border:0;}
+
+      #wrap{width:1366px; height:768px; position:relative;}
+      .menu{font-family: 'Aldrich', sans-serif; padding: 20px;font-size:14px;font-weight:bold;}
+
+      #about{position:absolute; left:50px; top:80px; transform:rotate(315deg);}
+      #about:hover{font-size:15px; left:47px;}
+      #archives{position:absolute; right:70px; top:80px; transform:rotate(45deg);}
+      #archives:hover{font-size:15px; right:68px;}
+      #memories{position:absolute; left:50px; bottom:80px; transform:rotate(45deg);}
+      #memories:hover{font-size:15px; left:45px;}
+      #contact{position:absolute; right:50px; bottom:80px; transform:rotate(315deg);}
+      #contact:hover{font-size:15px; right:45px;}
+
+      #picwrap{overflow: scroll; position:absolute;top:130px; left:225px;width:1090px; height:490px;}
+      .pics{overflow:hidden; width:300px; height:180px; float: left; margin:5px;}
+      .inpics{
+        margin: 0 auto;
+        width: 300px;
+      }
+      .inpics:hover{
+        transform: scale(1.5);
+        transition-duration: 0.5s;
+      }
+
+     #bigp1{width:650px;height:650px;}
+     #bigpwrap{width:650px;height:650px;position:absolute;z-index:10; left:400px;top:30px;}
+     h1{font-family:'Aldrich';font-size:30px;}
+     #whiteblock{z-index:5;background-color:white;opacity:0.85;width:1366px;height:768px;position:absolute;background-size: 100%}
+    </style>
+  </head>
+  <body>
+    <div id='wrap'>
+      <a href="ylf_about.html"><div id='about' class='menu'>A B O U T</div></a>
+      <a href="../ylf_site.html"><div id='archives' class='menu'>H O M E</div></a>
+      <div id='memories' class='menu'>M E M O R I E S</div>
+      <div id='contact' class='menu'>C O N T A C T</div>
+      <div id='picwrap'>
+        <div class="pics" id="p1"><img src="1.jpg" class="inpics" alt="" ></div>
+        <div class="pics" id="p2"><img src="2.jpg" class="inpics" alt=""></div>
+        <div class="pics" id="p3"><img src="3.png" class="inpics" width='300px' height='180px'alt=""></div>
+        <div class="pics" id="p4"><img src="4.png" class="inpics" alt=""></div>
+        <div class="pics" id="p5"><img src="5.jpg" class="inpics" alt=""></div>
+        <div class="pics" id="p6"><img src="6.jpg" class="inpics" alt=""></div>
+        <div class="pics" id="p7"><img src="7.jpeg" class="inpics" alt=""></div>
+        <div class="pics" id="p8"><img src="8.jpg" class="inpics" alt=""></div>
+        <div class="pics" id="p9"><img src="9.jpg" class="inpics" alt=""></div>
+
+      </div>
+
+      <div id="bigpwrap"><h1>진민석 - Qim Qi Seok</h1><img src="7.jpeg" id="bigp1" alt=""></div>
+      <a href="ylf_archives.html"><div id="whiteblock"></div></a>
+
+    </div>
+
+  </body>
+</html>
